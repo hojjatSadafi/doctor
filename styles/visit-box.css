@@ -1,11 +1,5 @@
-@font-face {
-    font-family: vazir;
-    src: url(../fonts/Vazir.ttf);
-}
-@font-face {
-    font-family: vazirLight;
-    src: url(../fonts/Vazir-Light.ttf);
-}
+@import url(font.css);
+
 body{
     min-height: 100vh;
     font-family: vazir;
@@ -14,7 +8,7 @@ body{
     background-color: #eeeeee;
 }
 .ff-vazir-light{
-    font-family: vazirLight;
+    font-family: vazirLigh;
 }
 
 

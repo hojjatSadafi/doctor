@@ -1,0 +1,16 @@
+@import url(font.css);
+
+body{
+    font-family: "vazir" !important;
+}
+
+.text__color{
+    color: #66bb46;
+}
+.btn__color{
+    background-color: rgb(102, 187, 70) !important;
+    color: white !important;
+}
+.link__color:hover{
+    color: #66bb46 !important;
+}

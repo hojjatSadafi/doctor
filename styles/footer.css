@@ -1,0 +1,62 @@
+@import url(font.css);
+/* body  */
+body{
+    font-family: "vazir" !important;
+    width: 100%;
+}
+
+footer{
+    margin-top: 3rem;
+}
+/*the text under the photo*/
+.right__text{
+    font-size: .9375rem !important;
+    line-height: 1.4rem !important;
+}
+/*the space between the list items*/
+.space__between{
+    line-height: 2rem !important;
+}
+/* the texts which are under the line */
+div .text__underline{
+    font-size: .8125rem !important;
+}
+/* icons in footer*/
+.icon{
+    font-size: 1.25rem !important;
+    color :rgb(201, 197, 197) ;
+}
+/*main icon of footer */
+.icon__footer{
+    font-size: 3.15rem !important; 
+    color: rgb(102, 187, 70) !important;
+}
+/* send message button */
+.button__footer{
+    background-color: rgb(102, 187, 70) !important;
+    color: white !important;
+}
+.list-body{
+    font-size: .938rem !important;
+}
+
+
+
+
+/*responsive*/
+@media (max-width: 767.98px) {
+    .responsive{  
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items:start !important;
+    }
+    .responsive__items{
+        width: 100% !important;
+        height: 100% !important;
+        margin-right: 0 !important;
+        margin-top: 1.5rem !important; 
+        margin-bottom: .5rem !important;
+    }
+    
+}
