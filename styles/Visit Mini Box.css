@@ -1,0 +1,10 @@
+.Font {
+    font-family: Vazir;
+    font-size:10px;
+  }
+  
+  .rounded-circle-custom {
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+  }
