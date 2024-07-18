@@ -1,0 +1,19 @@
+@import url(font.css);
+body {
+    font-family: 'Vazir', sans-serif;
+    direction: rtl;
+}
+.testimonial-card {
+    background-color: #e8f5e9; /* رنگ سبز کمرنگ برای پس‌زمینه */
+    border: none;
+}
+.testimonial-card .card-body {
+    padding: 1.5rem;
+}
+.testimonial-card .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.testimonial-card .card-text {
+    font-size: 1rem;
+}
