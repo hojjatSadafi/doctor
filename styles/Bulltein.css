@@ -1,0 +1,26 @@
+@import url(font.css);
+body {
+    font-family: 'Vazir', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.green-section {
+    background-color: #28a745; /* رنگ سبز */
+    padding: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    margin: 20px auto; /* تنظیم برای مرکزیت دیو کلی */
+}
+
+.green-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px; /* گوشه‌های گرد تصویر */
+}
+
+.green-section h2 {
+    margin-top: 20px;
+}
