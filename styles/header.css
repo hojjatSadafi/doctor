@@ -2,3 +2,66 @@
 body{
     font-family: vazir;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+header{
+    background-color: #eeeeee !important;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 1rem #66bb6a77;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    transition: all 150ms ease;
+}
+header.scroll{
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+.header__logo-wrapper{
+    width: 10rem;
+}
+.login-btn,.sign-btn{
+    padding: .5rem 1.5rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius: .345rem;
+    height: 2.5rem;
+    color: #66bb6a;
+    transition: all 150ms ease;
+}
+.sign-btn{
+    background-color: #66bb6a;
+    color: #fff;
+}
+.login-btn{
+    border: 2px solid #66bb6a;
+}
+.login-btn:hover,.sign-btn:hover{
+    transform: scale(1.1);
+}
+.header-nav-list{
+    list-style-type: none;
+}
+.header-nav-list__item{
+    transition: all 150ms ease;
+}
+.header-nav-list__item:hover{
+    color: #66bb6a;
+}
+.header-nav-list__item--active {
+    color: #43a047;
+}
+
+/*  */
+
+.test-item{
+    background-color: #90a4ae;
+    width: 100%;
+    height: 10rem;
+}
+.test-item:nth-child(odd){
+    background-color: #607d8b;
+}

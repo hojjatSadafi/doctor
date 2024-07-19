@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,36 @@
     <link rel="shortcut icon" href="images/doctorFav.png" type="image/png">
     <link rel="stylesheet" href="styles/bootstrap.rtl.min.css">
 
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/colors.css">
     <link rel="stylesheet" href="styles/header.css">
 </head>
 <body>
-    <header class="bg-light2">s</header>
+    <header class="" id="header">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="d-flex gap-2">
+                <a href="#" class="login-btn">ثبت نام</a>
+                <a href="#" class="sign-btn">ورود</a>
+            </div>
+            <div class="d-flex align-items-center gap-5">
+                <ul class="d-flex gap-3 header-nav-list text-muted">
+                    <li class="header-nav-list__item header-nav-list__item--active"><a href="#">درباره ما</a></li>
+                    <li class="header-nav-list__item"><a href="#">سوالات متداول</a></li>
+                    <li class="header-nav-list__item"><a href="#">رزرو نوبت</a></li>
+                    <li class="header-nav-list__item"><a href="#">خانه</a></li>
+                </ul>
+                <div class="header__logo-wrapper">
+                    <img src="images/doctorLogo.webp" alt="" class="w-100 object-fit-cover">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="test-item"></div>
+    <div class="test-item"></div>
+    <div class="test-item"></div>
+    <div class="test-item"></div>
+    <div class="test-item"></div>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>
