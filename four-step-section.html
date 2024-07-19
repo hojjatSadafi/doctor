@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>four-step-section</title>
+    <link rel="stylesheet" href="styles/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="styles/four-step-section.css">
+    <link rel="stylesheet" href="styles/colors.css">
+</head>
+<body class="pt-5 mt-5">
+    <svg class="d-none">
+        <symbol id="four-step-section__search-icon" class="icon icon-tabler icon-tabler-zoom-filled" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M14 3.072a8 8 0 0 1 2.617 11.424l4.944 4.943a1.5 1.5 0 0 1 -2.008 2.225l-.114 -.103l-4.943 -4.944a8 8 0 0 1 -12.49 -6.332l-.006 -.285l.005 -.285a8 8 0 0 1 11.995 -6.643z" stroke-width="0" fill="currentColor" />
+        </symbol>
+        <symbol id="four-step-section__calendar-icon" class="icon icon-tabler icon-tabler-calendar-month" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+            <path d="M16 3v4" />
+            <path d="M8 3v4" />
+            <path d="M4 11h16" />
+            <path d="M7 14h.013" />
+            <path d="M10.01 14h.005" />
+            <path d="M13.01 14h.005" />
+            <path d="M16.015 14h.005" />
+            <path d="M13.015 17h.005" />
+            <path d="M7.01 17h.005" />
+            <path d="M10.01 17h.005" />
+          </symbol>
+          <symbol id="four-step-section__tick-icon" class="icon icon-tabler icon-tabler-circle-check-filled" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" stroke-width="0" fill="currentColor" />
+          </symbol>
+          <symbol id="four-step-section__hospital-icon" class="icon icon-tabler icon-tabler-building-hospital" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 21l18 0" />
+            <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+            <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
+            <path d="M10 9l4 0" />
+            <path d="M12 7l0 4" />
+          </symbol>
+    </svg>
+    <section class="four-step bg-light">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-4 d-none d-lg-block align-self-end"><img src="images/freepik-export-20240719080823IiK1.png" alt="" class="w-100"></div>
+                <div class="col-lg-8">
+                    <div class="mb-5 text-center text-lg-start">
+                        <h6 class="fs-6  text-primary fw-bold">چگونه کار میکند</h6>
+                        <h4 class="fs-4 mt-1">4 مرحله آسان برای دریافت راه حل خود</h4>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col d-flex flex-column flex-md-row gap-3 align-items-center align-items-md-start">
+                            <div class="">
+                                <div class="four-step-section__svg-wrapper rounded-3 bg-dark-subtle d-flex align-items-center justify-content-center">
+                                    <svg class="four-step-section__svg text-primary"><use href="#four-step-section__search-icon"></use></svg>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <h6 class="fw-bold">جستجوی دکتر</h6>
+                                <p class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex flex-column flex-md-row gap-3 align-items-center align-items-md-start">
+                            <div class="">
+                                <div class="four-step-section__svg-wrapper rounded-3 bg-dark-subtle d-flex align-items-center justify-content-center">
+                                    <svg class="four-step-section__svg text-primary"><use href="#four-step-section__tick-icon"></use></svg>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <h6 class="fw-bold">مشخصات دکتر را برسی کنید</h6>
+                                <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex flex-column flex-md-row gap-3 align-items-center align-items-md-start">
+                            <div class="">
+                                <div class="four-step-section__svg-wrapper rounded-3 bg-dark-subtle d-flex align-items-center justify-content-center">
+                                    <svg class="four-step-section__svg text-primary"><use href="#four-step-section__calendar-icon"></use></svg>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <h6 class="fw-bold">انتصاب برنامه</h6>
+                                <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex flex-column flex-md-row gap-3 align-items-center align-items-md-start">
+                            <div class="">
+                                <div class="four-step-section__svg-wrapper rounded-3 bg-dark-subtle d-flex align-items-center justify-content-center">
+                                    <svg class="four-step-section__svg text-primary"><use href="#four-step-section__hospital-icon"></use></svg>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <h6 class="fw-bold">راه حل خود را دریافت کنید</h6>
+                                <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
