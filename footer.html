@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
+    <title>Footer</title>
+
     <!-- reset CSS -->
     <link rel="stylesheet" href="./reset.css">
 
@@ -17,16 +18,60 @@
 
     <!-- footer css file -->
     <link rel="stylesheet" href="styles/footer.css">
-    <title>Footer</title>
+    
+    <!--color css file-->
+    <link rel="stylesheet" href="./styles/colors.css">
 </head>
 
 <body>
+    <svg class="d-none">
+        <symbol id="footer__instagram" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+            <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+            <path d="M16.5 7.5l0 .01" />
+        </symbol>
+        <symbol id="footer__telegram" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-telegram">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
+        </symbol>
+        <symbol id="footer__linkedin" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-linkedin">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+            <path d="M8 11l0 5" />
+            <path d="M8 8l0 .01" />
+            <path d="M12 16l0 -5" />
+            <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+        </symbol>
+        <symbol id="footer__twitter" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-twitter">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path
+                d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c0 -.249 1.51 -2.772 1.818 -4.013z" />
+        </symbol>
+        <symbol id="footer__whatsapp" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+            <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+        </symbol>
+    </svg>
+
+
     <footer class="bg-light">
         <div class="container">
-            <div class="row align-items-top mb-4">
+            <div class="row align-items-top pt-4">
                 <div class="col-lg-8 d-flex flex-row responsive">
                     <div class="col-lg-3 d-flex flex-column gap-2 responsive__items">
-                        <i class="bi bi-instagram fs-2 icon__footer "></i>
+                        <img src="./images/doctorLogo.webp" alt="">
                         <p class="text-muted right__text">لورم ایپسوم یک متن ساختگی
                             است که بلکه لازم نامفهوم حریم</p>
                     </div>
@@ -50,15 +95,15 @@
                         <h5 class="mb-3">تماس با ما</h5>
                         <ul class="list-unstyled d-flex flex-column gap-2">
                             <div>
-                                <i class="bi bi-telephone icon"></i>
+                                <img class="footer__icon-size" src="./images/phone-call.png" alt="">
                                 <span class="text-muted ms-2">+98 908 123 456</span>
                             </div>
                             <div class="d-flex flex-row align-items-center">
-                                <i class="bi bi-geo-alt icon"></i>
+                                <img class="footer__icon-size" src="./images/map-pin.png" alt="">
                                 <span class="text-muted ms-3 right__text">لورم ایپسوم متن ساختکی</span>
                             </div>
                             <div>
-                                <i class="bi bi-envelope icon"></i>
+                                <img class="footer__icon-size" src="./images/mail.png" alt="">
                                 <span class="text-muted ms-2">@Examle.com</span>
                             </div>
                         </ul>
@@ -71,18 +116,36 @@
                         <button class="btn button__footer" type="button">ارسال</button>
                     </div>
                     <div class="d-flex flex-row">
-                        <a href="#">
-                            <i class="bi bi-instagram fs-2 icon"></i>
-                        </a>
-                        <a href="#">
-                            <i class="bi bi-telegram fs-2 mx-3 icon"></i>
-                        </a>
-                        <a href="#">
-                            <i class="bi bi-facebook fs-2 me-3 icon"></i>
-                        </a>
-                        <a href="#">
-                            <i class="bi bi-linkedin fs-2 icon"></i>
-                        </a>
+
+                        <svg class="footer__icons-position ">
+                            <a class="footer__icons-color footer__instagram-hover" href="#">
+                                <use href="#footer__instagram"></use>
+                            </a>
+                        </svg>
+
+                        <svg class="footer__icons-position mx-2">
+                            <a class="footer__icons-color footer__telegram-hover" href="#">
+                                <use href="#footer__telegram"></use>
+                            </a>
+                        </svg>
+
+                        <svg class="footer__icons-position">
+                            <a class="footer__icons-color footer__linkedin-hover" href="#">
+                                <use href="#footer__linkedin"></use>
+                            </a>
+                        </svg>
+
+                        <svg class="footer__icons-position mx-2">
+                            <a class="footer__icons-color footer__twitter-hover" href="#">
+                                <use href="#footer__twitter"></use>
+                            </a>
+                        </svg>
+
+                        <svg class="footer__icons-position">
+                            <a class="footer__icons-color footer__whatsapp-hover" href="#">
+                                <use href="#footer__whatsapp"></use>
+                            </a>
+                        </svg>
                     </div>
                 </div>
             </div>

@@ -8,43 +8,61 @@ body{
 footer{
     margin-top: 3rem;
 }
-/*the text under the photo*/
+
 .right__text{
     font-size: .9375rem !important;
     line-height: 1.4rem !important;
 }
-/*the space between the list items*/
+
 .space__between{
     line-height: 2rem !important;
 }
-/* the texts which are under the line */
+
 div .text__underline{
     font-size: .8125rem !important;
 }
-/* icons in footer*/
-.icon{
-    font-size: 1.25rem !important;
-    color :rgb(201, 197, 197) ;
+
+.footer__icons-position{
+    width: 2.4rem !important;
+    height: 2.4rem !important;
 }
-/*main icon of footer */
-.icon__footer{
-    font-size: 3.15rem !important; 
-    color: rgb(102, 187, 70) !important;
+
+.footer__icons-color{
+    color: #969c97 !important;
 }
-/* send message button */
+
+.footer__icon-size{
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+    color: rgb(155, 185, 144) !important;
+}
 .button__footer{
     background-color: rgb(102, 187, 70) !important;
     color: white !important;
 }
+
 .list-body{
     font-size: .938rem !important;
 }
 
-
-
-
+/* footer icons hover color */
+.footer__instagram-hover:hover{
+    color: #e9810a !important;
+}
+.footer__telegram-hover:hover{
+    color: #61acdf !important;
+}
+.footer__linkedin-hover:hover{
+    color: #0077b5 !important;
+}
+.footer__twitter-hover:hover{
+    color: #61acdf !important;
+}
+.footer__whatsapp-hover:hover{
+    color: #66bb6a !important;
+}
 /*responsive*/
-@media (max-width: 767.98px) {
+@media (max-width: 992px) {
     .responsive{  
         display: flex !important;
         flex-direction: column !important;
