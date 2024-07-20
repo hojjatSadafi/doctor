@@ -9,11 +9,13 @@ a{
 header{
     background-color: #eeeeee !important;
     position: sticky;
+    z-index: 999;
     top: 0;
     box-shadow: 0 0 1rem #66bb6a77;
     padding-bottom: 1rem;
     padding-top: 1rem;
     transition: all 150ms ease;
+    font-size: .9rem;
 }
 header.scroll{
     padding-bottom: .5rem;

@@ -8,15 +8,89 @@
     <link rel="stylesheet" href="styles/bootstrap.rtl.min.css">
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
     integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
 
+
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/head-section.css">
-    <link rel="stylesheet" href="styles/visit-box.css">
+    <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/four-step-section.css">
+    <link rel="stylesheet" href="styles/latest-articles.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/colors.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-     
+    <svg class="d-none">
+        <symbol id="four-step-section__search-icon" class="icon icon-tabler icon-tabler-zoom-filled" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#66bb6a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M14 3.072a8 8 0 0 1 2.617 11.424l4.944 4.943a1.5 1.5 0 0 1 -2.008 2.225l-.114 -.103l-4.943 -4.944a8 8 0 0 1 -12.49 -6.332l-.006 -.285l.005 -.285a8 8 0 0 1 11.995 -6.643z" stroke-width="0" fill="#66bb6a" />
+        </symbol>
+        <symbol id="four-step-section__calendar-icon" class="icon icon-tabler icon-tabler-calendar-month" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#66bb6a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12z" />
+            <path d="M16 3v4" />
+            <path d="M8 3v4" />
+            <path d="M4 11h16" />
+            <path d="M7 14h.013" />
+            <path d="M10.01 14h.005" />
+            <path d="M13.01 14h.005" />
+            <path d="M16.015 14h.005" />
+            <path d="M13.015 17h.005" />
+            <path d="M7.01 17h.005" />
+            <path d="M10.01 17h.005" />
+          </symbol>
+          <symbol id="four-step-section__tick-icon" class="icon icon-tabler icon-tabler-circle-check-filled" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#66bb6a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M17 3.34a10 10 0 1 1 -14.995 8.984l-.005 -.324l.005 -.324a10 10 0 0 1 14.995 -8.336zm-1.293 5.953a1 1 0 0 0 -1.32 -.083l-.094 .083l-3.293 3.292l-1.293 -1.292l-.094 -.083a1 1 0 0 0 -1.403 1.403l.083 .094l2 2l.094 .083a1 1 0 0 0 1.226 0l.094 -.083l4 -4l.083 -.094a1 1 0 0 0 -.083 -1.32z" stroke-width="0" fill="#66bb6a" />
+          </symbol>
+          <symbol id="four-step-section__hospital-icon" class="icon icon-tabler icon-tabler-building-hospital" width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" stroke="#66bb6a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 21l18 0" />
+            <path d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16" />
+            <path d="M9 21v-4a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v4" />
+            <path d="M10 9l4 0" />
+            <path d="M12 7l0 4" />
+          </symbol>
+    </svg> 
+
+    <header class="" id="header">
+        <div class="container d-flex flex-row-reverse flex-md-row justify-content-between align-items-center">
+            <div class="d-none d-md-flex gap-2">
+                <a href="#" class="login-btn">ثبت نام</a>
+                <a href="#" class="sign-btn">ورود</a>
+            </div>
+            <div class="d-flex align-items-center gap-5">
+                <ul class="d-none d-md-flex gap-3 header-nav-list text-muted m-0">
+                    <li class="header-nav-list__item header-nav-list__item--active"><a href="#">درباره ما</a></li>
+                    <li class="header-nav-list__item"><a href="#">سوالات متداول</a></li>
+                    <li class="header-nav-list__item"><a href="#">رزرو نوبت</a></li>
+                    <li class="header-nav-list__item"><a href="#">خانه</a></li>
+                </ul>
+                <div class="header__logo-wrapper mb-1">
+                    <img src="images/doctorLogo.webp" alt="" class="w-100 object-fit-cover">
+                </div>
+            </div>
+            <!-- mobile menues -->
+             <div class="header-hamberger d-md-none">
+                <span class="line"></span>
+             </div>
+            <ul class="d-flex d-md-none gap-3 header-mobile-nav-list text-muted">
+                <li class="header-mobile-nav-list__item header-mobile-nav-list__item--active"><a href="#">درباره ما</a></li>
+                <li class="header-mobile-nav-list__item"><a href="#">سوالات متداول</a></li>
+                <li class="header-mobile-nav-list__item"><a href="#">رزرو نوبت</a></li>
+                <li class="header-mobile-nav-list__item"><a href="#">خانه</a></li>
+                <span class="header-mobile-nav-list__x fw-bold">X</span>
+                <div class="d-flex flex-column d-md-none gap-2">
+                    <a href="#" class="login-btn">ثبت نام</a>
+                    <a href="#" class="sign-btn">ورود</a>
+                </div>
+            </ul>
+
+        </div>
+    </header>
+
+    <!-- head section -->
     <section class="mt-4">
         <div class="container">
             <div class="row align-items-center">
@@ -34,106 +108,182 @@
                     </sub>
                 </div>
                 <div class="col-md-6 mt-4 mt-md-0">
-                    <img class="img-fluid" src="images/Medical prescription-amico.svg" alt="">
+                    <img class="img-fluid" src="images/head section images/Medical prescription-amico.svg" alt="">
                 </div>
             </div>
         </div>
     </section>
-
-    <div class="container">
-        <div class="row gx-4">
-            <div class="col-9">
-                <div class="bg-light2 p-3 rounded-1">
-                    <h3 class="fs-5 mb-4 mt-2 fw-bold">انتخاب زمان نوبت</h3>
-                    <label role="button" class=" gap-3 ps-3 p-2 border rounded-3 d-flex shadow-sm mb-3" for="fastest-reserve-radio">
-                        <input type="radio" class="visit-time-reserve-radio form-check-input my-auto" id="fastest-reserve-radio" name="reserve-radio">
-                        <div class="">
-                            <small class="m-0">زودترین زمان نوبت خالی</small>
-                            <p class="fw-bold m-0">فردا(یکشنبه) ساعت 7:57</p>
-                        </div>
-                    </label>
-                    <label role="button" class="gap-3 ps-3 p-2 border rounded-3 d-flex align-items-center shadow-sm"
-                        for="all-reserve-radio" id=>
-                        <input type="radio" class="visit-time-reserve-radio form-check-input my-auto" id="all-reserve-radio" name="reserve-radio">
-                        <p class="fw-bold m-0">انتخاب زمانی دیگر</p>
-                    </label>
-                    <div class="row mt-3 g-3">
-                        <div class="col-md-3 col-lg-2 rounded-2">
-                            <div class="w-100 rounded-1 d-flex flex-column gap-2 pe-2" id="days-wrapper">
-                                <span role="button" class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item days-item--active">
-                                    <h6 class="mb-0 fs-5 ">فردا</h6>
-                                    <p  class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
-                                </span>
-                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
-                                    <h6 class="mb-0 fs-5 ">فردا</h6>
-                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
-                                </span>
-                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
-                                    <h6 class="mb-0 fs-5 ">فردا</h6>
-                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
-                                </span>
-                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
-                                    <h6 class="mb-0 fs-5 ">فردا</h6>
-                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
-                                </span>
-                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
-                                    <h6 class="mb-0 fs-5 ">فردا</h6>
-                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
-                                </span>
+    <!-- skills -->
+    <section class="bg-light my-4 py-3">
+        <div class="container">
+            <div class="row mb-5 justify-content-lg-end skills__responsive">
+                <div class="col skills__text-fontsize"><img class="skills__header-icon-size" src="./images/skills images/plus.png" alt="plus icon">تخصص ها</div>
+            </div>
+            <div class="row justify-content-between m-auto skills__responsive">
+                <div class="col-lg-2 d-flex flex-column align-items-center py-3 border rounded-3 skills__sections-size shadow skills__responsive-items">
+                    <div class="bg-body-secondary skills__icon-back position-relative">
+                        <img class="skills__icon-size mb-2 position-absolute" src="./images/skills images/heart.png" alt="heart icon">
+                    </div>
+                    <span class="mt-2">متخصص قلب</span>
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-items-center py-3 border rounded-3 skills__sections-size shadow skills__responsive-items">
+                    <div class="bg-body-secondary skills__icon-back position-relative">
+                        <img class="skills__icon-size mb-2 position-absolute" src="./images/skills images/brain.png" alt="brain icon">
+                    </div>
+                    <span class="mt-2">عصب شناس</span>
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-items-center py-3 border rounded-3 skills__sections-size shadow skills__responsive-items">
+                    <div class="bg-body-secondary skills__icon-back position-relative">
+                        <img class="skills__icon-size mb-2 position-absolute" src="./images/skills images/urology.png" alt="urology icon">
+                    </div>
+                    <span class="mt-2">اورولوژی</span>
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-items-center py-3 border rounded-3 skills__sections-size shadow skills__responsive-items">
+                    <div class="bg-body-secondary skills__icon-back position-relative">
+                        <img class="skills__icon-size mb-2 position-absolute" src="./images/skills images/hyperopia.png" alt="orthopedics icon">
+                    </div>
+                    <span class="mt-2">ارتوپد</span>
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-items-center py-3 border rounded-3 skills__sections-size shadow skills__responsive-items">
+                    <div class="bg-body-secondary skills__icon-back position-relative">
+                        <img class="skills__icon-size mb-2 position-absolute" src="./images/skills images/dentist.png" alt="dentist icon">
+                    </div>
+                    <span class="mt-2">دندان پزشک</span>
+                </div>
+                <div class="col-lg-2 d-flex flex-column align-items-center py-3 border rounded-3 skills__sections-size shadow skills__responsive-items">
+                    <div class="bg-body-secondary skills__icon-back position-relative">
+                        <img class="skills__icon-size mb-2 position-absolute" src="./images/skills images/iridology.png" alt="ophthalmology">
+                    </div>
+                    <span class="mt-2">چشم شناسی</span>
+                </div>
+            </div>
+            <div class="row mt-5 justify-content-center">
+                <button class="btn btn-success skills__button-size">همه تخصص ها را ببینید</button>
+            </div>
+        </div>
+    </section>
+    <!-- four-step-section -->
+    <section class="four-step bg-light">
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-lg-4 d-none d-lg-block align-self-end"><img src="images/freepik-export-20240719080823IiK1.png" alt="" class="w-100"></div>
+                <div class="col-lg-8">
+                    <div class="mb-5 text-center text-lg-start">
+                        <h6 class="fs-6  text-primary fw-bold ps-2">چگونه کار میکند</h6>
+                        <h4 class="fs-4 mt-1 position-relative ps-2">
+                            4 مرحله آسان برای دریافت راه حل خود
+                            <img src="images/latest articels images/plus.png" alt="" class="position-absolute four-step-section__plus-img start-0 top-0 translate-middle d-none d-lg-block">
+                        </h4>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col d-flex flex-column flex-md-row gap-3 align-items-center align-items-md-start">
+                            <div class="">
+                                <div class="four-step-section__svg-wrapper rounded-3 bg-dark-subtle d-flex align-items-center justify-content-center">
+                                    <svg class="four-step-section__svg text-primary"><use href="#four-step-section__search-icon"></use></svg>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <h6 class="fw-bold">جستجوی دکتر</h6>
+                                <p class="text-muted ">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
                             </div>
                         </div>
-                        <div class="col-md-9 col-lg-10">
-                            <div class="w-100 border-end shadow-sm rounded-1" id="time-box-wrapper">
-                                <header class="row text-center p-1" id="time-box-head">
-                                    <div role="button" class="col-6 pe-0"><h5 class="border-bottom border-3 fs-6 pb-2 time-box-head__title">صبح</h5></div>
-                                    <div role="button" class="col-6 ps-0"><h5 class="border-bottom border-3 fs-6 pb-2 time-box-head__title time-box-head__title--active">عصر</h5></div>
-                                </header>
-                                <main class="text-center" id="time-box-main">
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item time-item--active shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                    <span class="time-item shadow-sm">8:50</span>
-                                </main>
+                        <div class="col d-flex flex-column flex-md-row gap-3 align-items-center align-items-md-start">
+                            <div class="">
+                                <div class="four-step-section__svg-wrapper rounded-3 bg-dark-subtle d-flex align-items-center justify-content-center">
+                                    <svg class="four-step-section__svg text-primary"><use href="#four-step-section__tick-icon"></use></svg>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <h6 class="fw-bold">مشخصات دکتر را برسی کنید</h6>
+                                <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex flex-column flex-md-row gap-3 align-items-center align-items-md-start">
+                            <div class="">
+                                <div class="four-step-section__svg-wrapper rounded-3 bg-dark-subtle d-flex align-items-center justify-content-center">
+                                    <svg class="four-step-section__svg text-primary"><use href="#four-step-section__calendar-icon"></use></svg>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <h6 class="fw-bold">انتصاب برنامه</h6>
+                                <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex flex-column flex-md-row gap-3 align-items-center align-items-md-start">
+                            <div class="">
+                                <div class="four-step-section__svg-wrapper rounded-3 bg-dark-subtle d-flex align-items-center justify-content-center">
+                                    <svg class="four-step-section__svg text-primary"><use href="#four-step-section__hospital-icon"></use></svg>
+                                </div>
+                            </div>
+                            <div class="text-center text-md-start">
+                                <h6 class="fw-bold">راه حل خود را دریافت کنید</h6>
+                                <p class="text-muted">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-3">
-                <div class="bg-light"></div>
+        </div>
+    </section>
+    <!-- last article -->
+    <section class="bg-light my-4 py-3">
+        <div class="container">
+            <div class="row text-lg-center mb-5 latest-articels__responsive">
+                <div class="col latest-articels__text-fontsize">
+                    <img class="latest-articels__header-icon-size" src="./images/latest articels images/plus.png" alt="plus icon">آخرین مقالات
+                </div>
+            </div>
+            <div class="row gap-4">
+                <div class="col-lg-5 bg-secondary-subtle border rounded-3 d-flex justify-content-start align-items-center latest-articels__section-margin latest-articels__responsive-item">
+                    <div class="py-3 ps-2">
+                        <img class="latest-articels__images-size rounded-3" src="./images/latest articels images/doctor_1.jpg" alt="doctor images">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <small class="fw-bold ms-3 mt-2 latest-articels__title-size">لورم ایپسوم یک متن ساختگی است</small>
+                        <span class="text-muted ms-3 mt-4 latest-articels__texts-size">گر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند.</span>
+                        <button class="btn btn-outline-success mt-3 ms-3 latest-articels__button-size latest-articels__responsive-item-button">مشاهده</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 bg-secondary-subtle border rounded-3 d-flex justify-content-start align-items-center latest-articels__responsive-item">
+                    <div class="py-3 ps-2">
+                        <img class="latest-articels__images-size rounded-3" src="./images/latest articels images/doctor_1.jpg" alt="doctor images">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <small class="fw-bold ms-3 mt-2 latest-articels__title-size">لورم ایپسوم یک متن ساختگی است</small>
+                        <span class="text-muted ms-3 mt-4 latest-articels__texts-size">گر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند.</span>
+                        <button class="btn btn-outline-success mt-3 ms-3 latest-articels__button-size latest-articels__responsive-item-button">مشاهده</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 bg-secondary-subtle border rounded-3 d-flex justify-content-start align-items-center latest-articels__section-margin latest-articels__responsive-item">
+                    <div class="py-3 ps-2">
+                        <img class="latest-articels__images-size rounded-3" src="./images/latest articels images/doctor_1.jpg" alt="doctor images">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <small class="fw-bold ms-3 mt-2 latest-articels__title-size">لورم ایپسوم یک متن ساختگی است</small>
+                        <span class="text-muted ms-3 mt-4 latest-articels__texts-size">گر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند.</span>
+                        <button class="btn btn-outline-success mt-3 ms-3 latest-articels__button-size latest-articels__responsive-item-button">مشاهده</button>
+                    </div>
+                </div>
+                <div class="col-lg-5 bg-secondary-subtle border rounded-3 d-flex justify-content-start align-items-center latest-articels__responsive-item">
+                    <div class="py-3 ps-2">
+                        <img class="latest-articels__images-size rounded-3" src="./images/latest articels images/doctor_1.jpg" alt="doctor images">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <small class="fw-bold ms-3 mt-2 latest-articels__title-size">لورم ایپسوم یک متن ساختگی است</small>
+                        <span class="text-muted ms-3 mt-4 latest-articels__texts-size">گر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم شناخته می‌شوند.</span>
+                        <button class="btn btn-outline-success mt-3 ms-3 latest-articels__button-size latest-articels__responsive-item-button">مشاهده</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <footer class="bg-light">
+    <footer class="bg-light pt-4">
         <div class="container">
             <div class="row align-items-top mb-4">
                 <div class="col-lg-8 d-flex flex-row responsive">
                     <div class="col-lg-3 d-flex flex-column gap-2 responsive__items">
-                        <i class="bi bi-instagram fs-2 icon__footer "></i>
+                        <img src="images/doctorLogo.webp" alt="" class="w-100">
                         <p class="text-muted right__text">لورم ایپسوم یک متن ساختگی
                             است که بلکه لازم نامفهوم حریم</p>
                     </div>
@@ -209,6 +359,6 @@
     <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script> -->
-    <script src="js/visit-box.js"></script>
+    <script src="js/header.js"></script>
 </body>
 </html>

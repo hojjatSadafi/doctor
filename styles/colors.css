@@ -1,6 +1,15 @@
 .bg-primary{
     background-color: #66bb6a !important;
 }
+.bg-primary-light{
+    background-color: #81c784 !important;
+}
 .text-primary{
     color: #66bb6a !important;
+}
+.z-index-2{
+    z-index: 2;
+}
+.z-index-1{
+    z-index: 1;
 }
