@@ -1,19 +1,26 @@
 @import url(font.css);
 body {
-    font-family: 'Vazir', sans-serif;
-    direction: rtl;
+    font-family: vazir;
 }
-.testimonial-card {
-    background-color: #e8f5e9; /* رنگ سبز کمرنگ برای پس‌زمینه */
-    border: none;
+
+.Customer__image-size{
+    width: 10rem;
+    height: 10rem;
 }
-.testimonial-card .card-body {
-    padding: 1.5rem;
-}
-.testimonial-card .card-title {
-    font-size: 1.25rem;
-    font-weight: bold;
-}
-.testimonial-card .card-text {
-    font-size: 1rem;
+
+@media (min-width: 320px) and (max-width: 992px) {
+    .Customer__responsive{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+    }
+    .Customer__responsive-image{
+        margin-bottom: 1rem;
+        width: 8rem;
+        height: 8rem;
+    }
+    .Customer__responsive-text{
+        margin: auto;
+    }
 }
