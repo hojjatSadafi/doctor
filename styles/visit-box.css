@@ -13,7 +13,7 @@ body{
 
 
 label:has(.visit-time-reserve-radio:checked) {
-    border:1px solid #0d6efd !important;
+    border:1px solid #66bb6a !important;
 }
 label,.visit-time-reserve-radio{
     transition: all 150ms ease;
@@ -37,13 +37,14 @@ label,.visit-time-reserve-radio{
     transition: all 150ms ease;
 }
 .days-item--active{
-    color: #0d6efd !important;
-    border-color: #0d6efd !important;
+    color: #66bb6a !important;
+    border-color: #66bb6a !important;
 }
 
 #time-box-main{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(auto-fit,minmax(83px,1fr));
+    
     gap: .5rem;
     padding: 1rem;
 }
@@ -59,7 +60,7 @@ label,.visit-time-reserve-radio{
     line-height: normal;
 }
 .time-item--active , .time-box-head__title--active{
-    border-color: #0d6efd !important;
-    color: #0d6efd;
+    border-color: #66bb6a !important;
+    color: #66bb6a;
 
 }

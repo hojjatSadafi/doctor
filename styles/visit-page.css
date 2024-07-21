@@ -1,0 +1,10 @@
+@import url(font.css);
+
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #66bb6a;
+    border-radius: 6px;
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visit</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="styles/colors.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/visit-box.css">
+    <link rel="stylesheet" href="styles/visit-mini-box.css">
+    <link rel="stylesheet" href="styles/visit-page.css">
+    <link rel="stylesheet" href="styles/footer.css">
+
+</head>
+<body>
+
+    <header class="mb-2" id="header">
+        <div class="container d-flex flex-row-reverse flex-md-row justify-content-between align-items-center">
+            <div class="d-none d-md-flex gap-2">
+                <a href="#" class="login-btn">ثبت نام</a>
+                <a href="#" class="sign-btn">ورود</a>
+            </div>
+            <div class="d-flex align-items-center gap-5">
+                <ul class="d-none d-md-flex gap-3 header-nav-list text-muted m-0">
+                    <li class="header-nav-list__item header-nav-list__item--active"><a href="#">درباره ما</a></li>
+                    <li class="header-nav-list__item"><a href="#">سوالات متداول</a></li>
+                    <li class="header-nav-list__item"><a href="#">رزرو نوبت</a></li>
+                    <li class="header-nav-list__item"><a href="#">خانه</a></li>
+                </ul>
+                <div class="header__logo-wrapper mb-1">
+                    <img src="images/doctorLogo.webp" alt="" class="w-100 object-fit-cover">
+                </div>
+            </div>
+            <!-- mobile menues -->
+             <div class="header-hamberger d-md-none">
+                <span class="line"></span>
+             </div>
+            <ul class="d-flex d-md-none gap-3 header-mobile-nav-list text-muted">
+                <li class="header-mobile-nav-list__item header-mobile-nav-list__item--active"><a href="#">درباره ما</a></li>
+                <li class="header-mobile-nav-list__item"><a href="#">سوالات متداول</a></li>
+                <li class="header-mobile-nav-list__item"><a href="#">رزرو نوبت</a></li>
+                <li class="header-mobile-nav-list__item"><a href="#">خانه</a></li>
+                <span class="header-mobile-nav-list__x fw-bold">X</span>
+                <div class="d-flex flex-column d-md-none gap-2">
+                    <a href="#" class="login-btn">ثبت نام</a>
+                    <a href="#" class="sign-btn">ورود</a>
+                </div>
+            </ul>
+
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row gx-4">
+            <div class="order-lg-2 col-lg-4 col-xl-3">
+                <div class="w-100 bg-white p-3 rounded-2">
+                    <div class="bg-light d-flex align-items-center gap-3 p-3 rounded-1 mb-3">
+                        <div class="visit-mini-box__img rounded-circle overflow-hidden"><img src="images/pngtree-young-afro-professional-doctor-png-image_13227671.png" alt="" class="w-100 h-100 object-fit-cover"></div>
+                        <div class="">
+                            <h6 class="fw-bold">دکتر آتیلا ولی زاده</h6>
+                            <span class="text-muted">متخصص زنان زایمان و پروستات</span>
+                        </div>
+                    </div>
+                    <div class="border-start border-3 ps-1">
+                        <span class="fw-lighter text-muted visit-mini-box__sup-title">مرکز</span>
+                        <h6 class="mt-2">بیمارستان خصوصی آپادانا تهران</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="order-lg-1 col-lg-8 col-xl-9">
+                <div class="bg-light2 p-3 rounded-1">
+                    <h3 class="fs-5 mb-4 mt-2 fw-bold">انتخاب زمان نوبت</h3>
+                    <label role="button" class=" gap-3 ps-3 p-2 border rounded-3 d-flex shadow-sm mb-3" for="fastest-reserve-radio">
+                        <input type="radio" class="visit-time-reserve-radio form-check-input my-auto" id="fastest-reserve-radio" name="reserve-radio">
+                        <div class="">
+                            <small class="m-0">زودترین زمان نوبت خالی</small>
+                            <p class="fw-bold m-0">فردا(یکشنبه) ساعت 7:57</p>
+                        </div>
+                    </label>
+                    <label role="button" class="gap-3 ps-3 p-2 border rounded-3 d-flex align-items-center shadow-sm"
+                        for="all-reserve-radio" id=>
+                        <input type="radio" class="visit-time-reserve-radio form-check-input my-auto" id="all-reserve-radio" name="reserve-radio">
+                        <p class="fw-bold m-0">انتخاب زمانی دیگر</p>
+                    </label>
+                    <div class="row mt-3 g-3">
+                        <div class="col-md-3 col-lg-2 rounded-2">
+                            <div class="w-100 rounded-1 d-flex flex-column gap-2 pe-2" id="days-wrapper">
+                                <span role="button" class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item days-item--active">
+                                    <h6 class="mb-0 fs-5 ">فردا</h6>
+                                    <p  class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
+                                </span>
+                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                    <h6 class="mb-0 fs-5 ">فردا</h6>
+                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
+                                </span>
+                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                    <h6 class="mb-0 fs-5 ">فردا</h6>
+                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
+                                </span>
+                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                    <h6 class="mb-0 fs-5 ">فردا</h6>
+                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
+                                </span>
+                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                    <h6 class="mb-0 fs-5 ">فردا</h6>
+                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-lg-10">
+                            <div class="w-100 border-end shadow-sm rounded-1" id="time-box-wrapper">
+                                <div class="row text-center p-1" id="time-box-head">
+                                    <div role="button" class="col-6 pe-0"><h5 class="border-bottom border-3 fs-6 pb-2 time-box-head__title">صبح</h5></div>
+                                    <div role="button" class="col-6 ps-0"><h5 class="border-bottom border-3 fs-6 pb-2 time-box-head__title time-box-head__title--active">عصر</h5></div>
+                                </div>
+                                <main class="text-center" id="time-box-main">
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item time-item--active shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                    <span class="time-item shadow-sm">8:50</span>
+                                </main>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <footer class="bg-light pt-4">
+        <div class="container">
+            <div class="row align-items-top mb-4">
+                <div class="col-lg-8 d-flex flex-row responsive">
+                    <div class="col-lg-3 d-flex flex-column gap-2 responsive__items">
+                        <img src="images/doctorLogo.webp" alt="" class="w-100">
+                        <p class="text-muted right__text">لورم ایپسوم یک متن ساختگی
+                            است که بلکه لازم نامفهوم حریم</p>
+                    </div>
+                    <div class="col-lg-3 ms-4 space__between responsive__items">
+                        <h5 class="mb-3">برای بیماران</h5>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li><a href="#" class="list__body text-muted text-decoration-none">جستجو پزشک</a></li>
+                            <li><a href="#" class="list__body text-muted text-decoration-none">ورود</a></li>
+                            <li><a href="#" class="list__body text-muted text-decoration-none">ثبت نام</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 space__between responsive__items">
+                        <h5 class="mb-3">برای پزشکان</h5>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <li><a href="#" class="list__body text-muted text-decoration-none">نوبت ها</a></li>
+                            <li><a href="#" class="list__body text-muted text-decoration-none">چت</a></li>
+                            <li><a href="#" class="list__body text-muted text-decoration-none">ورود</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 space__between responsive__items">
+                        <h5 class="mb-3">تماس با ما</h5>
+                        <ul class="list-unstyled d-flex flex-column gap-2">
+                            <div>
+                                <i class="bi bi-telephone icon"></i>
+                                <span class="text-muted ms-2">+98 908 123 456</span>
+                            </div>
+                            <div class="d-flex flex-row align-items-center">
+                                <i class="bi bi-geo-alt icon"></i>
+                                <span class="text-muted ms-3 right__text">لورم ایپسوم متن ساختکی</span>
+                            </div>
+                            <div>
+                                <i class="bi bi-envelope icon"></i>
+                                <span class="text-muted ms-2">@Examle.com</span>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1 d-flex flex-column gap-2">
+                    <h5 class="mb-4">عضویت در خبرنامه</h5>
+                    <div class="input-group mb-4">
+                        <input type="text" class="form-control" placeholder="ایمیل">
+                        <button class="btn button__footer" type="button">ارسال</button>
+                    </div>
+                    <div class="d-flex flex-row">
+                        <a href="#">
+                            <i class="bi bi-instagram fs-2 icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-telegram fs-2 mx-3 icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-facebook fs-2 me-3 icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="bi bi-linkedin fs-2 icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="dropdown-divider">
+            <div class="row mt-4 responsive">
+                <div class="col-lg-4">
+                    <p class="text-muted text__underline">لورم ایپسوم یک متن ساختگی است</p>
+                </div>
+                <div class="col-lg-4 offset-lg-4 d-flex justify-content-lg-end">
+                    <p class="text-muted text__underline">حریم شخصی | شرایط و مقررات</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/visit-box.js"></script>
+</body>
+</html>
