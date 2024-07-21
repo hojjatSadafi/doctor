@@ -1,11 +1,14 @@
 @import url(font.css);
-.Font {
-    font-family: Vazir;
-    font-size:10px;
-  }
-  
-  .rounded-circle-custom {
-    border-radius: 50%;
-    width: 55px;
-    height: 55px;
-  }
+
+body{
+    font-family: vazir;
+}
+
+.visit-mini-box__img{
+    width: 4rem;
+    height: 4rem;
+
+}
+.visit-mini-box__sup-title{
+    font-size: 14px;
+}
