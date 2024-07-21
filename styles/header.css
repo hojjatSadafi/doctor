@@ -11,7 +11,7 @@ header{
     position: sticky;
     z-index: 99999;
     top: 0;
-    box-shadow: 0 0 1rem #66bb6a77;
+    box-shadow: 0 0 1rem #66bb6a48;
     padding-bottom: 1rem;
     padding-top: 1rem;
     transition: all 150ms ease;

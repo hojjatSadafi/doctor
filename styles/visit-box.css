@@ -10,6 +10,13 @@ body{
 .ff-vazir-light{
     font-family: vazirLigh;
 }
+input[type=radio]:checked{
+    box-shadow: none;
+}
+input[type=radio]:checked{
+    background-color: #66bb6a;
+    border-color: #66bb6a;
+}
 
 
 label:has(.visit-time-reserve-radio:checked) {
