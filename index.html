@@ -361,47 +361,49 @@
     <footer class="bg-light">
         <div class="container">
             <div class="row align-items-top pt-4">
-                <div class="col-lg-8 d-flex flex-row responsive">
-                    <div class="col-lg-3 d-flex flex-column gap-2 responsive__items">
-                        <img src="./images/doctorLogo.webp" alt="">
+                <div class="col-lg-8 d-flex flex-lg-row justify-content-lg-between responsive">
+                    <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column gap-2 text-center responsive__items">
+                        <img class="mx-auto mx-0 mb-2 mb-lg-0 footer__main-icon" src="./images/doctorLogo.webp" alt="">
                         <p class="text-muted right__text">لورم ایپسوم یک متن ساختگی
                             است که بلکه لازم نامفهوم حریم</p>
                     </div>
-                    <div class="col-lg-3 ms-4 space__between responsive__items">
-                        <h5 class="mb-3">برای بیماران</h5>
-                        <ul class="list-unstyled d-flex flex-column gap-2">
-                            <li><a href="#" class="list__body text-muted text-decoration-none">جستجو پزشک</a></li>
-                            <li><a href="#" class="list__body text-muted text-decoration-none">ورود</a></li>
-                            <li><a href="#" class="list__body text-muted text-decoration-none">ثبت نام</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 space__between responsive__items">
-                        <h5 class="mb-3">برای پزشکان</h5>
-                        <ul class="list-unstyled d-flex flex-column gap-2">
-                            <li><a href="#" class="list__body text-muted text-decoration-none">نوبت ها</a></li>
-                            <li><a href="#" class="list__body text-muted text-decoration-none">چت</a></li>
-                            <li><a href="#" class="list__body text-muted text-decoration-none">ورود</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 space__between responsive__items">
-                        <h5 class="mb-3">تماس با ما</h5>
-                        <ul class="list-unstyled d-flex flex-column gap-2">
-                            <div>
-                                <img class="footer__icon-size" src="./images/phone-call.png" alt="">
-                                <span class="text-muted ms-2">+98 908 123 456</span>
-                            </div>
-                            <div class="d-flex flex-row align-items-center">
-                                <img class="footer__icon-size" src="./images/map-pin.png" alt="">
-                                <span class="text-muted ms-3 right__text">لورم ایپسوم متن ساختکی</span>
-                            </div>
-                            <div>
-                                <img class="footer__icon-size" src="./images/mail.png" alt="">
-                                <span class="text-muted ms-2">@Examle.com</span>
-                            </div>
-                        </ul>
+                    <div class="d-flex flex-column flex-sm-row me-2 ms-2 ms-lg-5 me-lg-5 justify-content-between">
+                        <div class="col-lg-3 ms-lg-4 space__between responsive__items-1">
+                            <h5 class="mb-3">برای بیماران</h5>
+                            <ul class="list-unstyled d-flex flex-column gap-2">
+                                <li><a href="#" class="list__body text-muted text-decoration-none">جستجو پزشک</a></li>
+                                <li><a href="#" class="list__body text-muted text-decoration-none">ورود</a></li>
+                                <li><a href="#" class="list__body text-muted text-decoration-none">ثبت نام</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 space__between responsive__items-1">
+                            <h5 class="mb-3">برای پزشکان</h5>
+                            <ul class="list-unstyled d-flex flex-column gap-2">
+                                <li><a href="#" class="list__body text-muted text-decoration-none">نوبت ها</a></li>
+                                <li><a href="#" class="list__body text-muted text-decoration-none">چت</a></li>
+                                <li><a href="#" class="list__body text-muted text-decoration-none">ورود</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 d-flex flex-column space__between align-items-lg-start responsive__items-1">
+                            <h5 class="mb-3">تماس با ما</h5>
+                            <ul class="list-unstyled d-flex flex-column justify-content-lg-start gap-4">
+                                <div class="d-flex flex-lg-row align-self-center align-self-lg-start">
+                                    <img class="footer__icon-size" src="./images/phone-call.png" alt="">
+                                    <span class="text-muted text-nowrap ms-2">+98 908 123 456</span>
+                                </div>
+                                <div class="d-flex flex-lg-row align-self-center align-self-lg-start">
+                                    <img class="footer__icon-size" src="./images/map-pin.png" alt="">
+                                    <span class="text-muted ms-3 ms-lg-1 right__text">لورم ایپسوم متن </span>
+                                </div>
+                                <div class="d-flex flex-lg-row align-self-center align-self-lg-start">
+                                    <img class="footer__icon-size" src="./images/mail.png" alt="">
+                                    <span class="text-muted ms-2">@Examle.com</span>
+                                </div>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 offset-lg-1 d-flex flex-column gap-2">
+                <div class="col-lg-3 mt-3 mt-lg-0 offset-lg-1 d-flex flex-column align-items-center align-items-lg-start gap-2">
                     <h5 class="mb-4">عضویت در خبرنامه</h5>
                     <div class="input-group mb-4">
                         <input type="text" class="form-control" placeholder="ایمیل">
@@ -442,11 +444,11 @@
                 </div>
             </div>
             <hr class="dropdown-divider">
-            <div class="row mt-4 responsive">
-                <div class="col-lg-4">
+            <div class="row d-flex flex-row mt-4 justify-content-between">
+                <div class="col-lg-4 w-50">
                     <p class="text-muted text__underline">لورم ایپسوم یک متن ساختگی است</p>
                 </div>
-                <div class="col-lg-4 offset-lg-4 d-flex justify-content-lg-end">
+                <div class="col-lg-4 w-50 offset-lg-4 ms-0 d-flex justify-content-end">
                     <p class="text-muted text__underline">حریم شخصی | شرایط و مقررات</p>
                 </div>
             </div>
