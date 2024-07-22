@@ -5,13 +5,18 @@ body{
     width: 100%;
 }
 
+.footer__main-icon{
+    width: 10rem;
+    height: 4rem;
+}
+
 footer{
     margin-top: 3rem;
 }
 
 .right__text{
     font-size: .9375rem !important;
-    line-height: 1.4rem !important;
+    line-height: 1.3rem !important;
 }
 
 .space__between{
@@ -35,6 +40,7 @@ div .text__underline{
     width: 1.3rem !important;
     height: 1.3rem !important;
     color: rgb(155, 185, 144) !important;
+    align-self: center !important;
 }
 .button__footer{
     background-color: rgb(102, 187, 70) !important;
@@ -62,19 +68,21 @@ div .text__underline{
     color: #66bb6a !important;
 }
 /*responsive*/
-@media (max-width: 992px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
     .responsive{  
         display: flex !important;
         flex-direction: column !important;
-        justify-content: center !important;
-        align-items:start !important;
+        text-align: center;
+    }    
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .responsive{
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center;
     }
-    .responsive__items{
-        width: 100% !important;
-        height: 100% !important;
-        margin-right: 0 !important;
-        margin-top: 1.5rem !important; 
-        margin-bottom: .5rem !important;
-    }
-    
+    .responsive__items-1{
+        width:33.333333%;
+    } 
 }
