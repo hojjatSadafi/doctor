@@ -18,8 +18,8 @@ header{
     font-size: .9rem;
 }
 header.scroll{
-    padding-bottom: .5rem;
-    padding-top: .5rem;
+    padding-bottom: .5rem !important;
+    padding-top: .5rem !important;
 }
 .header__logo-wrapper{
     width: 10rem;
