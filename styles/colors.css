@@ -7,6 +7,12 @@
 .text-primary{
     color: #66bb6a !important;
 }
+.text-color{
+    color: #212121 !important;
+}
+.border-primary{
+    border-color: #66bb6a !important;
+}
 .z-index-2{
     z-index: 2;
 }
