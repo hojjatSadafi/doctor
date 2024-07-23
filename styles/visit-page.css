@@ -2,7 +2,7 @@
 
 body{
     font-family: vazir;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 ::-webkit-scrollbar{
     width: 8px;
@@ -20,7 +20,7 @@ body{
     filter: blur(20px);
 }
 .visit-page-fade-img-1{
-    left: -10%;
+    left: 0%;
     top: -10%;
 }
 .visit-page-fade-img-2{
