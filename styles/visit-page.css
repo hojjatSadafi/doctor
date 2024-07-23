@@ -1,10 +1,21 @@
 @import url(font.css);
 
-
+body{
+    font-family: vazir;
+    overflow-x: hidden;
+}
 ::-webkit-scrollbar{
     width: 8px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #66bb6a;
     border-radius: 6px;
+}
+.visit-page-fade-img-1{
+    position: absolute; 
+    right: -10%;
+    top: -10%;
+    width: 400px;
+    stroke: aqua;
+    z-index: -1;
 }
