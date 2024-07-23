@@ -6,6 +6,10 @@ a{
     text-decoration: none;
     color: inherit;
 }
+svg{
+    width: 44px;
+    height: 44px;
+}
 header{
     background-color: #eeeeee !important;
     position: sticky;
@@ -88,29 +92,37 @@ header.scroll{
 .header-hamberger .line::after{
     transform: translateY(-140%);
 }
-/* .header-mobile-nav-list{
-    position: absolute;
-    right:-100%;
-    top: 0;
-    bottom: 0;
-    height: 100vh;
-    flex-direction: column;
-    padding: 2rem 4rem 0px;
-    background-color: #fff;
-    transition: all 300ms;
-    user-select: none;
-    z-index: 10;
-}
-.header-mobile-nav-list--open {
-    right: 0 !important;
-}
-.header-mobile-nav-list__x{
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
-    cursor: pointer;
-} */
 
+.header-profile-wrapper {
+
+}
+.header-profile-wrapper:hover .header-drop-down{
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+.header-drop-down {
+    bottom: -260%;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-20px);
+    width: max-content;
+    transition: all 150ms ease 80ms;
+}
+.header-logout{
+    transition: all 150ms ease;
+}
+.header-logout:hover{
+    color: #ef5350;
+}
+.header-triangle{
+    top: -5%;
+    right: 1.3rem;
+    width: 10px;
+    height: 10px;
+    stroke: inherit;
+    transform: rotate(45deg);
+}
 /* responsive */
 
 
