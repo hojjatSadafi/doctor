@@ -4,6 +4,13 @@ body{
     font-family: "vazir" !important;
     width: 100%;
 }
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #66bb6a;
+    border-radius: 6px;
+}
 
 .contact-page-fade-img{
     position: absolute; 
