@@ -1,0 +1,14 @@
+@import url(font.css);
+
+body{
+    font-family: "vazir" !important;
+    width: 100%;
+}
+
+.customer__sub-textColor{
+    color: #21c09e;
+}
+.customer__images-size{
+    width: 4rem;
+    height: 3.5rem;
+}

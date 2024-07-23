@@ -13,9 +13,17 @@
 .border-primary{
     border-color: #66bb6a !important;
 }
+.bg-light{
+    background-color: #f8f9fa !important;
+}
+.bg-white{
+    background-color: #ffffff !important;
+}
+
 .z-index-2{
     z-index: 2;
 }
 .z-index-1{
     z-index: 1;
 }
+
