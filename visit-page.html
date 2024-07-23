@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
     <link rel="stylesheet" href="styles/footer.css">
 
 </head>
+
 <body class="bg-light2">
     <svg class="d-none">
         <symbol id="footer__instagram" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"
@@ -54,11 +56,25 @@
             <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
             <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
         </symbol>
+        <symbol id="visit-page__fade-circle" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 800 800" opacity="0.53">
+            <defs>
+                <filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%"
+                    filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feGaussianBlur stdDeviation="75" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic"
+                        edgeMode="none" result="blur"></feGaussianBlur>
+                </filter>
+            </defs>
+            <g filter="url(#bbblurry-filter)">
+                <ellipse rx="277.5" ry="277.5" cx="404.74433523447726" cy="401.50445428818307" fill="#66bb6aff">
+                </ellipse>
+            </g>
+        </symbol>
     </svg>
 
     <header class="py-3" id="header">
         <div class="container d-flex flex-row-reverse flex-md-row justify-content-between align-items-center">
-            
+
             <div class="d-flex align-items-center gap-2">
                 <div class="d-none d-md-flex gap-2">
                     <a href="#" class="login-btn">ثبت نام</a>
@@ -66,10 +82,11 @@
                 </div>
                 <ul class="d-none d-md-flex gap-3 header-nav-list text-muted m-0">
                     <li class="header-nav-list__item"><a href="index.html">صفحه اصلی</a></li>
-                    <li class="header-nav-list__item header-nav-list__item--active"><a href="visit-page.html">رزرو نوبت</a></li>
+                    <li class="header-nav-list__item header-nav-list__item--active"><a href="visit-page.html">رزرو
+                            نوبت</a></li>
                     <li class="header-nav-list__item"><a href="#">ارتباط با ما</a></li>
                 </ul>
-                
+
             </div>
             <div class="ms-auto">
                 <div class="header__logo-wrapper mb-1">
@@ -77,12 +94,13 @@
                 </div>
             </div>
             <!-- mobile menues -->
-             <div class="header-hamberger d-md-none">
+            <div class="header-hamberger d-md-none">
                 <span class="line"></span>
-             </div>
+            </div>
             <ul class="d-flex d-md-none gap-3 header-mobile-nav-list text-muted">
                 <li class="header-mobile-nav-list__item"><a href="index.html">صفحه اصلی</a></li>
-                <li class="header-mobile-nav-list__item header-mobile-nav-list__item--active"><a href="visit-page.html">رزرو نوبت</a></li>
+                <li class="header-mobile-nav-list__item header-mobile-nav-list__item--active"><a
+                        href="visit-page.html">رزرو نوبت</a></li>
                 <li class="header-mobile-nav-list__item "><a href="#">ارتباط با ما</a></li>
                 <span class="header-mobile-nav-list__x fw-bold">X</span>
                 <div class="d-flex flex-column d-md-none gap-2">
@@ -99,7 +117,9 @@
             <div class="order-lg-2 col-lg-4 col-xl-3">
                 <div class="w-100 bg-white p-3 rounded-2">
                     <div class="bg-light d-flex align-items-center gap-3 p-3 rounded-1 mb-3">
-                        <div class="visit-mini-box__img rounded-circle overflow-hidden"><img src="images/pngtree-young-afro-professional-doctor-png-image_13227671.png" alt="" class="w-100 h-100 object-fit-cover"></div>
+                        <div class="visit-mini-box__img rounded-circle overflow-hidden"><img
+                                src="images/pngtree-young-afro-professional-doctor-png-image_13227671.png" alt=""
+                                class="w-100 h-100 object-fit-cover"></div>
                         <div class="">
                             <h6 class="fw-bold">دکتر آتیلا ولی زاده</h6>
                             <span class="text-muted">متخصص زنان زایمان و پروستات</span>
@@ -114,8 +134,10 @@
             <div class="order-lg-1 col-lg-8 col-xl-9">
                 <div class="bg-white p-3 rounded-1">
                     <h3 class="fs-5 mb-4 mt-2 fw-bold">انتخاب زمان نوبت</h3>
-                    <label role="button" class=" gap-3 ps-3 p-2 border rounded-3 d-flex shadow-sm mb-3" for="fastest-reserve-radio">
-                        <input type="radio" class="visit-time-reserve-radio form-check-input my-auto" id="fastest-reserve-radio" name="reserve-radio">
+                    <label role="button" class=" gap-3 ps-3 p-2 border rounded-3 d-flex shadow-sm mb-3"
+                        for="fastest-reserve-radio">
+                        <input type="radio" class="visit-time-reserve-radio form-check-input my-auto"
+                            id="fastest-reserve-radio" name="reserve-radio">
                         <div class="">
                             <small class="m-0">زودترین زمان نوبت خالی</small>
                             <p class="fw-bold m-0">فردا(یکشنبه) ساعت 7:57</p>
@@ -123,29 +145,31 @@
                     </label>
                     <label role="button" class="gap-3 ps-3 p-2 border rounded-3 d-flex align-items-center shadow-sm"
                         for="all-reserve-radio" id=>
-                        <input type="radio" class="visit-time-reserve-radio form-check-input my-auto" id="all-reserve-radio" name="reserve-radio">
+                        <input type="radio" class="visit-time-reserve-radio form-check-input my-auto"
+                            id="all-reserve-radio" name="reserve-radio">
                         <p class="fw-bold m-0">انتخاب زمانی دیگر</p>
                     </label>
                     <div class="row mt-3 g-3">
                         <div class="col-md-3 col-lg-2 rounded-2">
                             <div class="w-100 rounded-1 d-flex flex-column gap-2 pe-2" id="days-wrapper">
-                                <span role="button" class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item days-item--active">
-                                    <h6 class="mb-0 fs-5 ">فردا</h6>
-                                    <p  class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
-                                </span>
-                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                <span role="button"
+                                    class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item days-item--active">
                                     <h6 class="mb-0 fs-5 ">فردا</h6>
                                     <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
                                 </span>
-                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                <span role="button" class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
                                     <h6 class="mb-0 fs-5 ">فردا</h6>
                                     <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
                                 </span>
-                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                <span role="button" class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
                                     <h6 class="mb-0 fs-5 ">فردا</h6>
                                     <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
                                 </span>
-                                <span role="button"  class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                <span role="button" class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
+                                    <h6 class="mb-0 fs-5 ">فردا</h6>
+                                    <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
+                                </span>
+                                <span role="button" class="border p-2 rounded-2 shadow-sm d-flex flex-column days-item">
                                     <h6 class="mb-0 fs-5 ">فردا</h6>
                                     <p class="mb-0 fs-6 fw-light ff-vazir-light">24 تیر</p>
                                 </span>
@@ -154,8 +178,14 @@
                         <div class="col-md-9 col-lg-10">
                             <div class="w-100 border-end shadow-sm rounded-1" id="time-box-wrapper">
                                 <div class="row text-center p-1" id="time-box-head">
-                                    <div role="button" class="col-6 pe-0"><h5 class="border-bottom border-3 fs-6 pb-2 time-box-head__title">صبح</h5></div>
-                                    <div role="button" class="col-6 ps-0"><h5 class="border-bottom border-3 fs-6 pb-2 time-box-head__title time-box-head__title--active">عصر</h5></div>
+                                    <div role="button" class="col-6 pe-0">
+                                        <h5 class="border-bottom border-3 fs-6 pb-2 time-box-head__title">صبح</h5>
+                                    </div>
+                                    <div role="button" class="col-6 ps-0">
+                                        <h5
+                                            class="border-bottom border-3 fs-6 pb-2 time-box-head__title time-box-head__title--active">
+                                            عصر</h5>
+                                    </div>
                                 </div>
                                 <main class="text-center" id="time-box-main">
                                     <span class="time-item shadow-sm">8:50</span>
@@ -191,10 +221,12 @@
                     </div>
                 </div>
             </div>
-            
-        </div> 
-        <svg class="visit-page-fade-img-1" version="1.1" viewBox="0 0 800 800" opacity="0.53"><defs><filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-        <feGaussianBlur stdDeviation="75" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur></filter></defs><g filter="url(#bbblurry-filter)"><ellipse rx="277.5" ry="277.5" cx="404.74433523447726" cy="401.50445428818307" fill="#66bb6aff"></ellipse></g></svg>   
+
+        </div>
+        <div class="visit-page-fade-img visit-page-fade-img-1 rounded-circle">
+        </div>
+        <div class="visit-page-fade-img visit-page-fade-img-2 rounded-circle">
+        </div>
     </div>
 
     <footer class="bg-light">
@@ -223,7 +255,8 @@
                                 <li><a href="#" class="list__body text-muted text-decoration-none">ورود</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-3 d-flex flex-column space__between align-items-lg-start responsive__items-1">
+                        <div
+                            class="col-lg-3 d-flex flex-column space__between align-items-lg-start responsive__items-1">
                             <h5 class="mb-3">تماس با ما</h5>
                             <ul class="list-unstyled d-flex flex-column justify-content-lg-start gap-4">
                                 <div class="d-flex flex-lg-row align-self-center align-self-lg-start">
@@ -242,7 +275,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-3 mt-lg-0 offset-lg-1 d-flex flex-column align-items-center align-items-lg-start gap-2">
+                <div
+                    class="col-lg-3 mt-3 mt-lg-0 offset-lg-1 d-flex flex-column align-items-center align-items-lg-start gap-2">
                     <h5 class="mb-4">عضویت در خبرنامه</h5>
                     <div class="input-group mb-4">
                         <input type="text" class="form-control" placeholder="ایمیل">
@@ -294,10 +328,11 @@
         </div>
     </footer>
 
-        
-    
+
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/header.js"></script>
     <script src="js/visit-box.js"></script>
 </body>
+
 </html>

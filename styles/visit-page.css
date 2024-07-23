@@ -11,11 +11,19 @@ body{
     background-color: #66bb6a;
     border-radius: 6px;
 }
-.visit-page-fade-img-1{
+.visit-page-fade-img{
     position: absolute; 
-    right: -10%;
-    top: -10%;
-    width: 400px;
-    stroke: aqua;
+    width: 300px;
+    height: 300px;
+    background-color: #66bb6aaa;
     z-index: -1;
+    filter: blur(20px);
+}
+.visit-page-fade-img-1{
+    left: -10%;
+    top: -10%;
+}
+.visit-page-fade-img-2{
+    right: -10%;
+    bottom: -10%;
 }
