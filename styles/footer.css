@@ -4,7 +4,10 @@ body{
     font-family: "vazir" !important;
     width: 100%;
 }
-
+hr {
+    border-color: #66bb6a !important;
+    border-width: 2px;
+}
 .footer__main-icon{
     width: 10rem;
     height: 4rem;
@@ -28,12 +31,8 @@ div .text__underline{
 }
 
 .footer__icons-position{
-    width: 2.4rem !important;
-    height: 2.4rem !important;
-}
-
-.footer__icons-color{
-    /* color: #969c97 !important; */
+    width: 1.8rem !important;
+    height: 1.8rem !important;
 }
 
 .footer__icon-size{
@@ -54,18 +53,23 @@ div .text__underline{
 /* footer icons hover color */
 .footer__instagram-hover:hover{
     color: #e9810a !important;
+    cursor: pointer;
 }
 .footer__telegram-hover:hover{
     color: #61acdf !important;
+    cursor: pointer;
 }
 .footer__linkedin-hover:hover{
     color: #0077b5 !important;
+    cursor: pointer;
 }
 .footer__twitter-hover:hover{
     color: #61acdf !important;
+    cursor: pointer;
 }
 .footer__whatsapp-hover:hover{
     color: #66bb6a !important;
+    cursor: pointer;
 }
 /*responsive*/
 @media (min-width: 320px) and (max-width: 575.98px) {

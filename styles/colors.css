@@ -7,6 +7,9 @@
 .text-primary{
     color: #66bb6a !important;
 }
+.border-primary{
+    border-color: #66bb6a !important;
+}
 .text-color{
     color: #fff !important;
 }
