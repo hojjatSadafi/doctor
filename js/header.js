@@ -1,4 +1,5 @@
 let $ = document
+
 // scroll
 let navBar = $.getElementById('header')
     
@@ -19,4 +20,18 @@ hambergerMenu.addEventListener('click',function(){
 })
 headerXIcon.addEventListener('click',function(){
     mobileMenu.classList.remove('header-nav-wrapper--open')
+})
+
+// toogle theme btn
+let themeChangeBtns = $.querySelectorAll('.theme-toggle-button')
+
+themeChangeBtns.forEach(function(themeChangeBtn){
+    themeChangeBtn.addEventListener('click',function(){
+        $.body.classList.toggle('dark')
+        if($.body.classList.contains('dark')){
+            localStorage.setItem('doctor-theme','dark')
+        } else {
+            localStorage.setItem('doctor-theme','light')
+        }
+    })
 })

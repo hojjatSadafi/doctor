@@ -10,6 +10,10 @@ svg{
     width: 44px;
     height: 44px;
 }
+.theme-toggle-button svg{
+    width: 20px;
+    height: 20px;
+}
 header{
     background-color: #eeeeee !important;
     position: sticky;
@@ -102,7 +106,7 @@ header.scroll{
     transform: none;
 }
 .header-drop-down {
-    bottom: -260%;
+    bottom: -350%;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-20px);
@@ -116,13 +120,33 @@ header.scroll{
     color: #ef5350;
 }
 .header-triangle{
-    top: -5%;
+    top: -3%;
     right: 1.3rem;
     width: 10px;
     height: 10px;
     stroke: inherit;
     transform: rotate(45deg);
 }
+.theme-toggle-button{
+    width: 6rem;
+    
+}
+.theme-toggle-button__circle{
+    width: 1.8rem;
+    height: 1.8rem;
+    right: .5rem;
+    transition: all 200ms ease;
+}
+body.dark .theme-toggle-button__circle{
+    right: 64%;
+}
+.header-sun-svg{
+    right: .5rem;
+}
+.header-moon-svg{
+    left: .5rem;
+}
+
 /* responsive */
 
 
