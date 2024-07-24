@@ -68,12 +68,55 @@
         <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
         <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
     </symbol>
-    </svg>
+    <symbol id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-sun-filled"
+    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 19a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z"
+        stroke-width="0" fill="currentColor" />
+    <path
+        d="M18.313 16.91l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 1.218 -1.567l.102 .07z"
+        stroke-width="0" fill="currentColor" />
+    <path
+        d="M7.007 16.993a1 1 0 0 1 .083 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7a1 1 0 0 1 1.414 0z"
+        stroke-width="0" fill="currentColor" />
+    <path d="M4 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" stroke-width="0"
+        fill="currentColor" />
+    <path d="M21 11a1 1 0 0 1 .117 1.993l-.117 .007h-1a1 1 0 0 1 -.117 -1.993l.117 -.007h1z" stroke-width="0"
+        fill="currentColor" />
+    <path
+        d="M6.213 4.81l.094 .083l.7 .7a1 1 0 0 1 -1.32 1.497l-.094 -.083l-.7 -.7a1 1 0 0 1 1.217 -1.567l.102 .07z"
+        stroke-width="0" fill="currentColor" />
+    <path
+        d="M19.107 4.893a1 1 0 0 1 .083 1.32l-.083 .094l-.7 .7a1 1 0 0 1 -1.497 -1.32l.083 -.094l.7 -.7a1 1 0 0 1 1.414 0z"
+        stroke-width="0" fill="currentColor" />
+    <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z"
+        stroke-width="0" fill="currentColor" />
+    <path d="M12 7a5 5 0 1 1 -4.995 5.217l-.005 -.217l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0"
+        fill="currentColor" />
+    </symbol>
+    <symbol id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-moon-filled"
+    width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path
+        d="M12 1.992a10 10 0 1 0 9.236 13.838c.341 -.82 -.476 -1.644 -1.298 -1.31a6.5 6.5 0 0 1 -6.864 -10.787l.077 -.08c.551 -.63 .113 -1.653 -.758 -1.653h-.266l-.068 -.006l-.06 -.002z"
+        stroke-width="0" fill="currentColor" />
+    </symbol>
+    <symbol id="header-user-icon" class="icon icon-tabler icon-tabler-user-filled" width="44" height="44"
+    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+    stroke-linejoin="round">
+    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <path d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor" />
+    <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" stroke-width="0"
+        fill="currentColor" />
+    </symbol>
+</svg>
 
 
     <header class="py-3 bg-light" id="header">
         <div class="container d-flex justify-content-between align-items-center">
-            
+
             <div class="header-hamberger d-md-none">
                 <span class="line"></span>
             </div>
@@ -83,8 +126,31 @@
                     <a href="#" class="login-btn">ثبت نام</a>
                     <a href="#" class="sign-btn">ورود</a>
                 </div>
+                <!-- <div role="button" class="header-profile-wrapper position-relative p-1 d-flex align-items-center justify-content-cente border bg-white rounded-circle">
+                    <svg class="text-color header-user-svg">
+                        <use href="#header-user-icon"></use>
+                    </svg>
+                    <ul class="header-drop-down bg-white rounded-1 position-absolute mx-auto end-0 start-0 text-center p-2">
+                        <h6 id="header-user-name">نام و نام خانوادگی</h6>
+                        <small>09050454589</small>
+                        <hr class="my-2">
+                        <div class="header-logout">خروج</div>
+                        <hr class="my-2">
+                        <div class="theme-toggle-button bg-light rounded-pill py-3 mx-auto position-relative">
+                            <svg class="header-sun-svg position-absolute top-0 bottom-0 my-auto">
+                                <use href="#sun-icon"></use>
+                            </svg>
+                            <svg class="header-moon-svg position-absolute top-0 bottom-0 my-auto">
+                                <use href="#moon-icon"></use>
+                            </svg>
+                            <div class="theme-toggle-button__circle p-1 rounded-circle bg-white position-absolute top-0 bottom-0 my-auto"></div>
+                        </div>
+                        <div class="header-triangle position-absolute bg-white"></div>
+                    </ul>
+                </div> -->
                 <ul class="d-flex gap-3 header-nav-list text-muted m-0">
-                    <li class="header-nav-list__item"><a href="index.html">صفحه اصلی</a></li>
+                    <li class="header-nav-list__item"><a href="index.html">صفحه اصلی</a>
+                    </li>
                     <li class="header-nav-list__item"><a href="visit-page.html">رزرو نوبت</a></li>
                     <li class="header-nav-list__item header-nav-list__item--active"><a href="contact-us-page.html">ارتباط با ما</a></li>
                 </ul>
@@ -98,7 +164,7 @@
             </div>
             <!-- mobile menues -->
 
-            
+
         </div>
     </header>
 
@@ -113,10 +179,57 @@
             <svg class="position-absolute honeycomb-section-size-2">
                 <use href="#contact-us-head-section__honeycomb"></use>
             </svg>
+            
         </div>
         
     </section>
-
+    <section class="wave w-100 bg-light">
+    <svg width="100%" height="100%" id="svg" viewBox="0 0 1440 390" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
+        .path-0{
+          animation:pathAnim-0 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-0{
+          0%{
+            d: path("M 0,400 L 0,100 C 62.26410256410256,102.1974358974359 124.52820512820512,104.3948717948718 217,95 C 309.4717948717949,85.6051282051282 432.1512820512821,64.61794871794872 507,61 C 581.8487179487179,57.38205128205128 608.8666666666666,71.13333333333334 684,84 C 759.1333333333334,96.86666666666666 882.3820512820514,108.84871794871795 977,118 C 1071.6179487179486,127.15128205128205 1137.605128205128,133.47179487179488 1210,130 C 1282.394871794872,126.52820512820513 1361.197435897436,113.26410256410256 1440,100 L 1440,400 L 0,400 Z");
+          }
+          25%{
+            d: path("M 0,400 L 0,100 C 85.51794871794871,94.5128205128205 171.03589743589743,89.02564102564101 256,99 C 340.9641025641026,108.97435897435899 425.374358974359,134.41025641025644 509,141 C 592.625641025641,147.58974358974356 675.4666666666668,135.33333333333331 750,133 C 824.5333333333332,130.66666666666669 890.7589743589742,138.25641025641028 968,144 C 1045.2410256410258,149.74358974358972 1133.497435897436,153.64102564102564 1214,146 C 1294.502564102564,138.35897435897436 1367.251282051282,119.17948717948718 1440,100 L 1440,400 L 0,400 Z");
+          }
+          50%{
+            d: path("M 0,400 L 0,100 C 95.73846153846154,109.37692307692308 191.47692307692307,118.75384615384617 272,111 C 352.5230769230769,103.24615384615383 417.8307692307692,78.36153846153846 489,83 C 560.1692307692308,87.63846153846154 637.2000000000002,121.79999999999998 724,130 C 810.7999999999998,138.20000000000002 907.3692307692306,120.43846153846154 981,102 C 1054.6307692307694,83.56153846153846 1105.323076923077,64.44615384615385 1178,64 C 1250.676923076923,63.55384615384615 1345.3384615384616,81.77692307692308 1440,100 L 1440,400 L 0,400 Z");
+          }
+          75%{
+            d: path("M 0,400 L 0,100 C 65.47948717948717,93.03589743589743 130.95897435897433,86.07179487179486 202,79 C 273.04102564102567,71.92820512820514 349.6435897435898,64.74871794871795 438,63 C 526.3564102564102,61.25128205128205 626.4666666666666,64.93333333333334 715,60 C 803.5333333333334,55.06666666666666 880.4897435897435,41.51794871794872 968,51 C 1055.5102564102565,60.48205128205128 1153.574358974359,92.99487179487178 1234,105 C 1314.425641025641,117.00512820512822 1377.2128205128206,108.50256410256411 1440,100 L 1440,400 L 0,400 Z");
+          }
+          100%{
+            d: path("M 0,400 L 0,100 C 62.26410256410256,102.1974358974359 124.52820512820512,104.3948717948718 217,95 C 309.4717948717949,85.6051282051282 432.1512820512821,64.61794871794872 507,61 C 581.8487179487179,57.38205128205128 608.8666666666666,71.13333333333334 684,84 C 759.1333333333334,96.86666666666666 882.3820512820514,108.84871794871795 977,118 C 1071.6179487179486,127.15128205128205 1137.605128205128,133.47179487179488 1210,130 C 1282.394871794872,126.52820512820513 1361.197435897436,113.26410256410256 1440,100 L 1440,400 L 0,400 Z");
+          }
+        }</style><path d="M 0,400 L 0,100 C 62.26410256410256,102.1974358974359 124.52820512820512,104.3948717948718 217,95 C 309.4717948717949,85.6051282051282 432.1512820512821,64.61794871794872 507,61 C 581.8487179487179,57.38205128205128 608.8666666666666,71.13333333333334 684,84 C 759.1333333333334,96.86666666666666 882.3820512820514,108.84871794871795 977,118 C 1071.6179487179486,127.15128205128205 1137.605128205128,133.47179487179488 1210,130 C 1282.394871794872,126.52820512820513 1361.197435897436,113.26410256410256 1440,100 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="#66bb6a" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0" transform="rotate(-180 720 200)"></path><style>
+        .path-1{
+          animation:pathAnim-1 4s;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+        }
+        @keyframes pathAnim-1{
+          0%{
+            d: path("M 0,400 L 0,233 C 64.05128205128204,210.16666666666666 128.1025641025641,187.33333333333331 212,200 C 295.8974358974359,212.66666666666669 399.64102564102564,260.83333333333337 486,274 C 572.3589743589744,287.16666666666663 641.3333333333334,265.33333333333337 714,249 C 786.6666666666666,232.66666666666666 863.0256410256409,221.83333333333334 941,228 C 1018.9743589743591,234.16666666666666 1098.5641025641025,257.3333333333333 1182,261 C 1265.4358974358975,264.6666666666667 1352.7179487179487,248.83333333333334 1440,233 L 1440,400 L 0,400 Z");
+          }
+          25%{
+            d: path("M 0,400 L 0,233 C 106.36410256410255,209.03076923076924 212.7282051282051,185.06153846153848 282,195 C 351.2717948717949,204.93846153846152 383.4512820512821,248.7846153846154 456,253 C 528.5487179487179,257.2153846153846 641.4666666666668,221.8 733,223 C 824.5333333333332,224.2 894.6820512820511,262.0153846153846 965,276 C 1035.3179487179489,289.9846153846154 1105.8051282051283,280.1384615384615 1185,269 C 1264.1948717948717,257.8615384615385 1352.0974358974358,245.43076923076924 1440,233 L 1440,400 L 0,400 Z");
+          }
+          50%{
+            d: path("M 0,400 L 0,233 C 80.62051282051283,221.51538461538462 161.24102564102566,210.03076923076924 241,221 C 320.75897435897434,231.96923076923076 399.65641025641025,265.39230769230767 476,262 C 552.3435897435897,258.60769230769233 626.1333333333332,218.40000000000006 715,212 C 803.8666666666668,205.59999999999994 907.8102564102564,233.00769230769225 980,249 C 1052.1897435897436,264.99230769230775 1092.625641025641,269.5692307692308 1164,265 C 1235.374358974359,260.4307692307692 1337.6871794871795,246.7153846153846 1440,233 L 1440,400 L 0,400 Z");
+          }
+          75%{
+            d: path("M 0,400 L 0,233 C 81.38717948717951,227.84358974358975 162.77435897435902,222.6871794871795 248,230 C 333.225641025641,237.3128205128205 422.2897435897436,257.0948717948718 505,265 C 587.7102564102564,272.9051282051282 664.0666666666666,268.93333333333334 732,254 C 799.9333333333334,239.06666666666666 859.4435897435897,213.17179487179484 929,208 C 998.5564102564103,202.82820512820516 1078.1589743589745,218.3794871794872 1165,226 C 1251.8410256410255,233.6205128205128 1345.9205128205126,233.3102564102564 1440,233 L 1440,400 L 0,400 Z");
+          }
+          100%{
+            d: path("M 0,400 L 0,233 C 64.05128205128204,210.16666666666666 128.1025641025641,187.33333333333331 212,200 C 295.8974358974359,212.66666666666669 399.64102564102564,260.83333333333337 486,274 C 572.3589743589744,287.16666666666663 641.3333333333334,265.33333333333337 714,249 C 786.6666666666666,232.66666666666666 863.0256410256409,221.83333333333334 941,228 C 1018.9743589743591,234.16666666666666 1098.5641025641025,257.3333333333333 1182,261 C 1265.4358974358975,264.6666666666667 1352.7179487179487,248.83333333333334 1440,233 L 1440,400 L 0,400 Z");
+          }
+        }</style><path d="M 0,400 L 0,233 C 64.05128205128204,210.16666666666666 128.1025641025641,187.33333333333331 212,200 C 295.8974358974359,212.66666666666669 399.64102564102564,260.83333333333337 486,274 C 572.3589743589744,287.16666666666663 641.3333333333334,265.33333333333337 714,249 C 786.6666666666666,232.66666666666666 863.0256410256409,221.83333333333334 941,228 C 1018.9743589743591,234.16666666666666 1098.5641025641025,257.3333333333333 1182,261 C 1265.4358974358975,264.6666666666667 1352.7179487179487,248.83333333333334 1440,233 L 1440,400 L 0,400 Z" stroke="none" stroke-width="0" fill="#66bb6a" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1" transform="rotate(-180 720 200)"></path></svg>
+    </section>
     <section class="bg-light py-5 position-relative">
         <div class="container d-flex flex-column align-items-center gap-4 position-relative">
             <sup class="customer__sub-textColor z-index-2">بازخورد مشتریان</sup>
@@ -168,7 +281,7 @@
         <div class="contact-page-fade-img contact-page-fade-img-2 rounded-circle d-none-dark"></div>
     </section>
 
-    <footer class="bg-light">
+    <footer class="bg-light pb-2">
         <div class="container">
             <div class="row align-items-top pt-4 justify-content-lg-between">
                     <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column gap-2 text-center responsive__items">
@@ -257,12 +370,22 @@
                 </div>
             </div>
             <hr>
-            <div class="row d-flex flex-row mt-4 justify-content-between">
-                <div class="col-lg-4 w-50">
-                    <p class="text-muted text__underline">لورم ایپسوم یک متن ساختگی است</p>
+            <div class="d-sm-flex flex-row mt-4 justify-content-between align-items-center">
+                <p class="text-muted text__underline m-0 d-none d-sm-block">لورم ایپسوم یک متن ساختگی است</p>
+                <div class="theme-toggle-button bg-white rounded-pill py-3 mx-auto position-relative">
+                    <svg class="header-sun-svg position-absolute top-0 bottom-0 my-auto">
+                        <use href="#sun-icon"></use>
+                    </svg>
+                    <svg class="header-moon-svg position-absolute top-0 bottom-0 my-auto">
+                        <use href="#moon-icon"></use>
+                    </svg>
+                    <div class="theme-toggle-button__circle p-1 rounded-circle bg-light position-absolute top-0 bottom-0 my-auto"></div>
                 </div>
-                <div class="col-lg-4 w-50 offset-lg-4 ms-0 d-flex justify-content-end">
-                    <p class="text-muted text__underline">حریم شخصی | شرایط و مقررات</p>
+                <p class="text-muted text__underline m-0 d-none d-sm-block">حریم شخصی | شرایط و مقررات</p>
+                <!-- mobile -->
+                <div class="d-sm-none d-flex align-items-center justify-content-center gap-3 mt-2 flex-wrap mx-auto text-center">
+                     <small class="text-muted text__underline m-0">لورم ایپسوم یک متن ساختگی است</small>
+                     <small class="text-muted text__underline m-0">حریم شخصی | شرایط و مقررات</small>
                 </div>
             </div>
         </div>

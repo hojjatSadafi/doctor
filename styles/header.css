@@ -6,7 +6,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-svg{
+.header-user-svg{
     width: 44px;
     height: 44px;
 }
@@ -126,6 +126,7 @@ header.scroll{
     height: 10px;
     stroke: inherit;
     transform: rotate(45deg);
+    transition: all 200ms ease;
 }
 .theme-toggle-button{
     width: 6rem;
