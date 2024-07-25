@@ -8,6 +8,25 @@ hr {
     border-color: #66bb6a !important;
     border-width: 2px;
 }
+
+.footer__honeycomb-size-1{
+    width: 100px !important;
+    height: 100px !important;
+    right: 1% !important;
+    bottom: 20% !important;
+    transform: rotate(179deg) !important;
+    z-index: 0 !important;
+}
+
+.footer__honeycomb-size-2{
+    width: 100px !important;
+    height: 100px !important;
+    left: 1% !important;
+    top: 0 !important;
+    /* transform: rotate(179deg) !important; */
+    z-index: 0 !important;
+}
+
 .footer__main-icon{
     width: 10rem;
     height: 4rem;
@@ -33,6 +52,8 @@ div .text__underline{
 .footer__icons-position{
     width: 1.8rem !important;
     height: 1.8rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
 }
 
 .footer__icon-size{
@@ -41,6 +62,8 @@ div .text__underline{
     color: rgb(155, 185, 144) !important;
     align-self: center !important;
 }
+
+
 .button__footer{
     background-color: rgb(102, 187, 70) !important;
     color: white !important;
@@ -77,6 +100,11 @@ div .text__underline{
         display: flex !important;
         flex-direction: column !important;
         text-align: center;
+    }
+    .footer__honeycomb-size-1{
+        right: 0 !important;
+        top: 0 !important;
+        transform: rotate(90deg) !important;
     }    
 }
 
@@ -88,5 +116,10 @@ div .text__underline{
     }
     .responsive__items-1{
         width:33.333333%;
+    }
+    .footer__honeycomb-size-1{
+        right: 0 !important;
+        top: 0 !important;
+        transform: rotate(90deg) !important;
     } 
 }
