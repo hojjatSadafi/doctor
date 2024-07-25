@@ -33,6 +33,10 @@ header.scroll{
     width: 10rem;
 }
 
+.header-nav-wrapper{
+    transition: all 150ms ease;
+}
+
 .login-btn,.sign-btn{
     padding: .5rem 1.5rem;
     display:flex;
@@ -97,21 +101,23 @@ header.scroll{
     transform: translateY(-140%);
 }
 
-.header-profile-wrapper {
-
-}
-.header-profile-wrapper:hover .header-drop-down{
+/* .header-profile-wrapper:hover .header-drop-down{
     opacity: 1;
     visibility: visible;
     transform: none;
-}
+} */
 .header-drop-down {
     bottom: -350%;
     opacity: 0;
     visibility: hidden;
     transform: translateY(-20px);
     width: max-content;
-    transition: all 150ms ease 80ms;
+    transition: all 150ms ease;
+}
+.header-drop-down--active{
+    opacity: 1;
+    visibility: visible;
+    transform: none;
 }
 .header-logout{
     transition: all 150ms ease;
@@ -126,7 +132,7 @@ header.scroll{
     height: 10px;
     stroke: inherit;
     transform: rotate(45deg);
-    transition: all 150ms ease 80ms;
+    transition: all 150ms ease;
 }
 .theme-toggle-button{
     width: 6rem;
@@ -135,11 +141,16 @@ header.scroll{
 .theme-toggle-button__circle{
     width: 1.8rem;
     height: 1.8rem;
-    right: .5rem;
+    right: .22rem;
     transition: all 200ms ease;
+    background-color: rgba(0, 0, 0, .4);
+    backdrop-filter: blur(1px);
 }
 body.dark .theme-toggle-button__circle{
-    right: 64%;
+    background-color: rgba(255, 255, 255, .2);
+}
+body.dark .theme-toggle-button__circle{
+    right: 4.02rem;
 }
 .header-sun-svg{
     right: .5rem;

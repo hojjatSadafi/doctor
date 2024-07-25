@@ -35,3 +35,16 @@ themeChangeBtns.forEach(function(themeChangeBtn){
         }
     })
 })
+
+// drop down shown
+
+let profileBtn = $.querySelector('.header-profile-wrapper') 
+let dropDownElem = $.querySelector('.header-drop-down')
+
+
+profileBtn.addEventListener('click',function(){
+    dropDownElem.classList.toggle('header-drop-down--active')
+})
+dropDownElem.addEventListener('click',function(event){
+    event.stopPropagation() // when click on the drop down its dont close  
+})
