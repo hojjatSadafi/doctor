@@ -63,7 +63,7 @@
 
 
     <footer class="bg-light pb-2">
-        <div class="container">
+        <div class="container position-relative">
             <div class="row align-items-top pt-4 justify-content-lg-between">
                 <div class="col-lg-3 mb-4 mb-lg-0 d-flex flex-column gap-2 text-center responsive__items">
                     <img class="mx-auto mx-0 mb-2 mb-lg-0 footer__main-icon" src="./images/doctorLogo.webp" alt="">
@@ -112,7 +112,7 @@
                         <input type="text" class="form-control" placeholder="ایمیل">
                         <button class="btn button__footer" type="button">ارسال</button>
                     </div>
-                    <div class="d-flex flex-row">
+                    <div class="d-flex flex-row gap-3">
                         <div class="footer__instagram-hover">
                             <svg class="footer__icons-position ">
                                 <a href="#">
@@ -161,15 +161,24 @@
                     <svg class="header-moon-svg position-absolute top-0 bottom-0 my-auto">
                         <use href="#moon-icon"></use>
                     </svg>
-                    <div class="theme-toggle-button__circle p-1 rounded-circle bg-light position-absolute top-0 bottom-0 my-auto"></div>
+                    <div
+                        class="theme-toggle-button__circle p-1 rounded-circle border border-primary border-2 position-absolute top-0 bottom-0 my-auto">
+                    </div>
                 </div>
                 <p class="text-muted text__underline m-0 d-none d-sm-block">حریم شخصی | شرایط و مقررات</p>
                 <!-- mobile -->
-                <div class="d-sm-none d-flex align-items-center justify-content-center gap-3 mt-2 flex-wrap mx-auto text-center">
-                     <small class="text-muted text__underline m-0">لورم ایپسوم یک متن ساختگی است</small>
-                     <small class="text-muted text__underline m-0">حریم شخصی | شرایط و مقررات</small>
+                <div
+                    class="d-sm-none d-flex align-items-center justify-content-center gap-3 mt-2 flex-wrap mx-auto text-center">
+                    <small class="text-muted text__underline m-0">لورم ایپسوم یک متن ساختگی است</small>
+                    <small class="text-muted text__underline m-0">حریم شخصی | شرایط و مقررات</small>
                 </div>
             </div>
+            <svg class="position-absolute footer__honeycomb-size-1">
+                <use href="#footer__honeycomb"></use>
+            </svg>
+            <svg class="position-absolute footer__honeycomb-size-2">
+                <use href="#footer__honeycomb"></use>
+            </svg>
         </div>
     </footer>
 
