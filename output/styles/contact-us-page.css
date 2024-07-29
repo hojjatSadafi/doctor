@@ -1,4 +1,10 @@
+@import url(reset.css);
+@import url(bootstrap.rtl.min.css);
+@import url(colors.css);
+@import url(header.css);
+@import url(footer.css);
 @import url(font.css);
+
 /* body  */
 body{
     font-family: "vazir" !important;
