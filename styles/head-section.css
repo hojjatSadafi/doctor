@@ -4,6 +4,10 @@ body{
     font-family: "vazir" !important;
 }
 
+.head-section__p-line-height{
+    line-height: 2rem;
+}
+
 .text__color{
     color: #66bb46;
 }

@@ -1,0 +1,20 @@
+@import url(font.css);
+
+body{
+    font-family: "vazir" !important;
+    width: 100%;
+    background: linear-gradient(270deg, #92ad93 0%, #A5D6A7 100%);
+}
+
+.Error__h1-font{
+    font-size: 5rem;
+}
+
+.Error__span-font{
+    font-size: 3rem;
+}
+
+.Error__text{
+    text-align: center;
+    max-width: 25rem;
+}
