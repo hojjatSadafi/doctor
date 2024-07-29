@@ -1,0 +1,125 @@
+@import url(font.css);
+/* body  */
+body{
+    font-family: "vazir" !important;
+    width: 100%;
+}
+hr {
+    border-color: #66bb6a !important;
+    border-width: 2px;
+}
+
+.footer__honeycomb-size-1{
+    width: 100px !important;
+    height: 100px !important;
+    right: 1% !important;
+    bottom: 20% !important;
+    transform: rotate(179deg) !important;
+    z-index: 0 !important;
+}
+
+.footer__honeycomb-size-2{
+    width: 100px !important;
+    height: 100px !important;
+    left: 1% !important;
+    top: 0 !important;
+    /* transform: rotate(179deg) !important; */
+    z-index: 0 !important;
+}
+
+.footer__main-icon{
+    width: 10rem;
+    height: 4rem;
+}
+
+footer{
+    margin-top: 3rem;
+}
+
+.right__text{
+    font-size: .9375rem !important;
+    line-height: 1.3rem !important;
+}
+
+.space__between{
+    line-height: 2rem !important;
+}
+
+div .text__underline{
+    font-size: .8125rem !important;
+}
+
+.footer__icons-position{
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.footer__icon-size{
+    width: 1.3rem !important;
+    height: 1.3rem !important;
+    color: rgb(155, 185, 144) !important;
+    align-self: center !important;
+}
+
+
+.button__footer{
+    background-color: rgb(102, 187, 70) !important;
+    color: white !important;
+}
+
+.list-body{
+    font-size: .938rem !important;
+}
+
+/* footer icons hover color */
+.footer__instagram-hover:hover{
+    color: #e9810a !important;
+    cursor: pointer;
+}
+.footer__telegram-hover:hover{
+    color: #61acdf !important;
+    cursor: pointer;
+}
+.footer__linkedin-hover:hover{
+    color: #0077b5 !important;
+    cursor: pointer;
+}
+.footer__twitter-hover:hover{
+    color: #61acdf !important;
+    cursor: pointer;
+}
+.footer__whatsapp-hover:hover{
+    color: #66bb6a !important;
+    cursor: pointer;
+}
+/*responsive*/
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .responsive{  
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .footer__honeycomb-size-1{
+        right: 0 !important;
+        top: 0 !important;
+        transform: rotate(90deg) !important;
+    }    
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+    .responsive{
+        display: flex !important;
+        flex-direction: column !important;
+        text-align: center;
+    }
+    .responsive__items-1{
+        width:33.333333%;
+    }
+    .footer__honeycomb-size-1{
+        right: 0 !important;
+        top: 0 !important;
+        transform: rotate(90deg) !important;
+    } 
+}

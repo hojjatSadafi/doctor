@@ -1,0 +1,36 @@
+@import url(font.css);
+body{
+    font-family: vazir;
+}
+
+.location-section__call-box-info-title{
+    flex-basis: 35%;
+}
+.fs-8{
+    font-size: 12px;
+}
+.location-section__call-box-info-caption{
+    flex-basis: 65%;
+}
+.location-section__call-box-wrapper{
+    margin-left: -5rem;
+    z-index: 3;
+}
+.location-section__call-box{
+    backdrop-filter: blur(4px);
+    text-shadow: 0px -1px 5px #fafafa;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+@media screen and (max-width:992px) {
+    .location-section__call-box-wrapper{
+        margin: 0px 0px -5rem auto;
+        width: max-content;
+    }
+}
+@media screen and (max-width:768px) {
+    .location-section__call-box-wrapper{
+        margin: 0px auto;
+        
+    }
+}

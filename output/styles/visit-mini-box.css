@@ -1,0 +1,14 @@
+@import url(font.css);
+
+body{
+    font-family: vazir;
+}
+
+.visit-mini-box__img{
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+}
+.visit-mini-box__sup-title{
+    font-size: 14px;
+}
